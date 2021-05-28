@@ -13,7 +13,7 @@ import EastHospitals from './Screens/Hospitals/East/EastHospitals'
 import WestHopsitals from './Screens/Hospitals/West/WestHospitals'
 import DistrictMalirHospitals from './Screens/Hospitals/DistricMalir/DistrictMalirHospitals'
 import SouthHospitals from './Screens/Hospitals/South/SouthHospitals'
-
+import VaccinationCenters from './Screens/VaccinationCenters/VaccinationCenters'
 
 
 const Stack = createStackNavigator();
@@ -37,6 +37,7 @@ export default function App() {
         <Stack.Screen name='WestHospitals' component={WestHopsitals} />
         <Stack.Screen name='DistrictMalirHospitals' component={DistrictMalirHospitals} />
         <Stack.Screen name='SouthHospitals' component={SouthHospitals} />
+        <Stack.Screen name='VaccinationCenter' component={VaccinationCenters} />
 
       </Stack.Navigator>
       
