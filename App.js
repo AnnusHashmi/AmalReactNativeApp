@@ -30,37 +30,37 @@ const Stack = createStackNavigator();
 export default function App() {
 
   return (
-    // <NavigationContainer>
+    <NavigationContainer>
 
-    //   <Stack.Navigator screenOptions={{
-    //     header : () => null,
-    //   }}
-    //   >
-    //     <Stack.Screen name='Main' component={HomeScreen} />
-    //     <Stack.Screen name='Hospitals' component={Hospitals} />
-    //     <Stack.Screen name='Isolations' component={IsolationVaccination} />
-    //     <Stack.Screen name='Symptoms' component={Symptoms} />
-    //     <Stack.Screen name='At Home Prevention' component={AtHomePreventions} />
-    //     <Stack.Screen name='CenterHospitals' component={CenterHospitals} />
-    //     <Stack.Screen name='EastHospitals' component={EastHospitals} />
-    //     <Stack.Screen name='WestHospitals' component={WestHopsitals} />
-    //     <Stack.Screen name='DistrictMalirHospitals' component={DistrictMalirHospitals} />
-    //     <Stack.Screen name='SouthHospitals' component={SouthHospitals} />
-    //     <Stack.Screen name='VaccinationCenter' component={VaccinationCenters} />
+      <Stack.Navigator screenOptions={{
+        header : () => null,
+      }}
+      >
+        <Stack.Screen name='Main' component={HomeScreen} />
+        <Stack.Screen name='Hospitals' component={Hospitals} />
+        <Stack.Screen name='Isolations' component={IsolationVaccination} />
+        <Stack.Screen name='Symptoms' component={Symptoms} />
+        <Stack.Screen name='At Home Prevention' component={AtHomePreventions} />
+        <Stack.Screen name='CenterHospitals' component={CenterHospitals} />
+        <Stack.Screen name='EastHospitals' component={EastHospitals} />
+        <Stack.Screen name='WestHospitals' component={WestHopsitals} />
+        <Stack.Screen name='DistrictMalirHospitals' component={DistrictMalirHospitals} />
+        <Stack.Screen name='SouthHospitals' component={SouthHospitals} />
+        <Stack.Screen name='VaccinationCenter' component={VaccinationCenters} />
 
-    //     <Stack.Screen name='VacEast' component={VacEast} />
-    //     <Stack.Screen name='VacCentral' component={VacCentral} />
-    //     <Stack.Screen name='VacMalir' component={VacMalir} />
-    //     <Stack.Screen name='VacKorangi' component={VacKorangi} />
-    //     <Stack.Screen name='VacWest' component={VacWest} />
-    //     <Stack.Screen name='VacSouth' component={VacSouth} />
+        <Stack.Screen name='VacEast' component={VacEast} />
+        <Stack.Screen name='VacCentral' component={VacCentral} />
+        <Stack.Screen name='VacMalir' component={VacMalir} />
+        <Stack.Screen name='VacKorangi' component={VacKorangi} />
+        <Stack.Screen name='VacWest' component={VacWest} />
+        <Stack.Screen name='VacSouth' component={VacSouth} />
 
-    //   </Stack.Navigator>
+      </Stack.Navigator>
       
-    // </NavigationContainer>
-    <View style={styles.container}>
-      <SplashScreen />
-    </View>
+    </NavigationContainer>
+    // <View style={styles.container}>
+    //   <SplashScreen />
+    // </View>
     
   );
 }

@@ -1,12 +1,12 @@
 {
   "expo": {
     "name": "COVID GUIDE FOR KARACHI",
-    "slug": "COVID GUIDE FOR KARACHI",
+    "slug": "CovidGuideForKarachi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./Screens/SplashScreen/SplashScreen.js",
+      "image": "./assets/SplashScreen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.annushashmi.CovidGuideForKarachi"
     },
     "web": {
       "favicon": "./assets/favicon.png"
